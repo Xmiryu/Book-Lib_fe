@@ -71,7 +71,7 @@ function Books(props) {
 
     async function addToRead(bookId) {
         try {
-            let res = await axios.put(
+            await axios.put(
                 `pikachu/addToRead/${bookId}`, JSON.stringify(bookId),{
                     headers: {
                         'auth-token': localStorage.getItem('auth-token')
