@@ -52,7 +52,7 @@ export default function (props) {
                     password: password
                 })
             );
-            props.history.push("/pikachu/register");
+            props.history.push("/pikachu/login");
         } catch (err) {
             console.error(err);
         }

@@ -54,7 +54,7 @@ function ReadBooks(props) {
         getReadData();
     }, [])
 
-    return (
+    return readBooks && (
         <div className={classes.margin}>
             <Button className={classes.buttons}
                     onClick={(event) => {
@@ -90,7 +90,7 @@ function ReadBooks(props) {
                     })
                 }
             </div>
-        );
+        ) || props.history.push('/pikachu');
 
 }
 export default ReadBooks;
