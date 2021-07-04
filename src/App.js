@@ -12,9 +12,6 @@ import {AppBar, BottomNavigation, BottomNavigationAction, Button, makeStyles, Ty
 import ToReadBooks from "./components/ToReadBooks";
 import ReadBooks from "./components/ReadBooks";
 
-const cors = require('cors');
-App.use(cors());
-
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
