@@ -1,0 +1,7 @@
+{
+  "proxies": {
+    "/api/": {
+      "origin": "https://book-lib-be.herokuapp.com/"
+    }
+  }
+}
