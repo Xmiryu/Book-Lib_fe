@@ -77,7 +77,7 @@ function ToReadBooks(props) {
 
     async function deleteToRead(bookId) {
         try {
-            const res = await axios.delete(
+            await axios.delete(
                 `pikachu/${bookId}`, {
                     headers: {
                         'auth-token': localStorage.getItem('auth-token')
