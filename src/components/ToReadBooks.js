@@ -47,6 +47,7 @@ function ToReadBooks(props) {
                 }
             );
             setToReadBooks(res.data);
+            if (!toReadBooks) props.history.push('/pikachu');
 
         } catch (err) {
             console.error(err);
