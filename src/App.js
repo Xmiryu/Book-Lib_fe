@@ -8,7 +8,7 @@ import Login from './components/Login';
 import register from './components/register';
 import Books from './components/Books';
 import addBook from "./components/addBook";
-import {AppBar, BottomNavigation, BottomNavigationAction, Button, makeStyles, Typography} from "@material-ui/core";
+import {AppBar, makeStyles, Typography} from "@material-ui/core";
 import ToReadBooks from "./components/ToReadBooks";
 import ReadBooks from "./components/ReadBooks";
 
