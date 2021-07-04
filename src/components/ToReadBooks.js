@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
 
 function ToReadBooks(props) {
     const [error, setError] = useState(null);
-    const [readBooks, setReadBooks] = useState(null);
     const [toReadBooks, setToReadBooks] = useState(null);
 
     const classes = useStyles();
@@ -67,7 +66,6 @@ function ToReadBooks(props) {
                     }
                 }
             );
-            setReadBooks(null);
             props.history.push('/pikachu/');
 
         } catch (err) {

@@ -3,8 +3,8 @@ import axios from 'axios';
 const production = "https://book-lib-be.herokuapp.com/";
 const development = "http://localhost:8080";
 
-//const url = process.env.NODE_ENV === "production" ? production : development;
-const url = production;
+const url = process.env.NODE_ENV === "production" ? production : development;
+//const url = production;
 
 axios.defaults.baseURL = `${url}`;
 
