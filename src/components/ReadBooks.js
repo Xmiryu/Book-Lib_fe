@@ -34,7 +34,6 @@ function ReadBooks(props) {
         props.history.push('/pikachu/login');
     }
 
-
     const getReadData = async () => {
         try {
             const res = await axios.get(
@@ -55,9 +54,7 @@ function ReadBooks(props) {
         getReadData();
     }, [])
 
-
-
-    return readBooks && (
+    return (
         <div className={classes.margin}>
             <Button className={classes.buttons}
                     onClick={(event) => {
