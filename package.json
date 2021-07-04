@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "book-lib_fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.11.4",
+    "axios": "^0.21.1",
     "react-router-dom": "^5.2.0"
   }
 }
